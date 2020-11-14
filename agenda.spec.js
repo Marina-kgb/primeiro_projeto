@@ -19,5 +19,6 @@ describe('Cadastro', function (){
       cy.get('input[id="secondpassword"]').type('123456')// confirmar senha
       cy.get('button[type="submit"]').click()//não consegui fazer pegar esse botão
       cy.get('button[type=button]').click()//só pega esse botão 
+      
    })
    })
