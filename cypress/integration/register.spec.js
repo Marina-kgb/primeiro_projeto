@@ -17,7 +17,7 @@ describe('Cadastro', function (){
       cy.get('#basicBootstrapForm > div:nth-child(7) > label').click() //clicando fora dos campos
       cy.get('select[id=Skills]').select(['APIs']) //seleciona uma skill
       cy.get('select[id="countries"]').select("Brazil")  //seleciona pais
-      cy.get('select[id=yearbox]').select(['1991']) //seleciona país
+      cy.get('select[id=yearbox]').select(['1991']) //seleciona ano
       cy.get('select[placeholder=Month]').select(['May']) //seleciona mês
       cy.get('select[id=daybox]').select(['10']) //seleciona dia
       cy.get('input[id="firstpassword"]').type('Ertar1345%') // senha
